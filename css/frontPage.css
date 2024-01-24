@@ -1,0 +1,144 @@
+
+    
+.dots {
+    width: 18px;
+    height: 18px;
+    opacity: 0.5;
+}
+
+.imgProfile  {    
+    width: 100px; 
+    height: 100px;
+    text-align: center;
+    display: block;
+    filter:  grayscale(100%);
+}
+
+.align {  
+    text-align:center;
+    width:200px;
+    display:block;
+}
+
+.grid {
+    margin-bottom: 10%;    
+}
+
+a {
+    color: #1D1D1D;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#authorsGrid {
+    background-color: #FAF5F5;
+}
+
+#headerIndex {
+    margin-top: 2%;
+    margin-bottom: 1%
+}
+
+
+#author {
+    font-family: 'Montserrat', sans-serif;
+    color: #474343;
+}
+
+.textie {
+    font-size: 17px;
+}
+
+
+
+#authorsGrid a img:hover {
+    -webkit-filter: none;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, black, PrimaryBlack);
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    width: 120px;
+}
+
+.nav {
+    display: none;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.cta-button,
+.menu-button {
+    padding: 8px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: #85C1E9;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .nav {
+        display: flex;
+    }
+
+    .menu-button {
+        display: none; /* Hide menu button on larger screens */
+    }
+
+    .cta-button {
+        display: inline-block; /* Show CTA button on larger screens */
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .menu-button {
+        display: inline-block; /* Show menu button on smaller screens */
+    }
+
+    .cta-button {
+        display: none; /* Hide CTA button on smaller screens */
+    }
+}
+
+.social-icons {
+    font-size: 15px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.fab {
+    font-size: 1.5em;
+}
